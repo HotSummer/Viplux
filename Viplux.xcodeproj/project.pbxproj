@@ -34,7 +34,6 @@
 		204EF58E19385175005B4636 /* VSShoppingCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204EF58D19385175005B4636 /* VSShoppingCenterViewController.m */; };
 		204EF59119387932005B4636 /* VSBrandMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 204EF59019387932005B4636 /* VSBrandMenu.m */; };
 		204EF5941938856F005B4636 /* VSSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 204EF5931938856F005B4636 /* VSSegmentControl.m */; };
-		204EF597193885F3005B4636 /* UIColor+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 204EF596193885F3005B4636 /* UIColor+TPCategory.m */; };
 		207F8D841937275D00FF8BCF /* VSBrandDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F8D831937275D00FF8BCF /* VSBrandDAO.m */; };
 		20A829171936E271007CF0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A829161936E271007CF0F7 /* Foundation.framework */; };
 		20A829191936E271007CF0F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A829181936E271007CF0F7 /* CoreGraphics.framework */; };
@@ -52,9 +51,20 @@
 		20A829421936E271007CF0F7 /* VipluxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A829411936E271007CF0F7 /* VipluxTests.m */; };
 		20A8295B1936E794007CF0F7 /* VSBrandDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8295A1936E794007CF0F7 /* VSBrandDTO.m */; };
 		20A8296119371DAE007CF0F7 /* VSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8296019371DAE007CF0F7 /* VSBaseViewController.m */; };
-		20B6343C193D622A0019C6D0 /* NSString+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6343B193D622A0019C6D0 /* NSString+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		20B6343F193D62D90019C6D0 /* NSData+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6343E193D62D90019C6D0 /* NSData+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		20B63445193D75CF0019C6D0 /* VSShoppingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B63444193D75CF0019C6D0 /* VSShoppingCell.m */; };
+		4E74E415193DB7E4007015BF /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E414193DB7E4007015BF /* RequestManager.m */; };
+		4E74E422193DB82F007015BF /* RequestSuperEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E41B193DB82F007015BF /* RequestSuperEntity.m */; };
+		4E74E427193DB883007015BF /* VSSystemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E426193DB883007015BF /* VSSystemHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E74E42B193DB8C6007015BF /* Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E42A193DB8C6007015BF /* Reflection.m */; };
+		4E74E43D193DB94C007015BF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E42F193DB94C007015BF /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E74E43E193DB94C007015BF /* NSArray+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E432193DB94C007015BF /* NSArray+ToString.m */; };
+		4E74E440193DB94C007015BF /* NSDictionary+objectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E436193DB94C007015BF /* NSDictionary+objectForKey.m */; };
+		4E74E441193DB94C007015BF /* NSNull+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E438193DB94C007015BF /* NSNull+Addtion.m */; };
+		4E74E442193DB94C007015BF /* NSObject+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E43A193DB94C007015BF /* NSObject+Addtions.m */; };
+		4E74E443193DB94C007015BF /* NSString_Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E43C193DB94C007015BF /* NSString_Extras.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E74E44A193DBA4B007015BF /* NSString+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E444193DBA4B007015BF /* NSString+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E74E44B193DBA4B007015BF /* NSData+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E447193DBA4B007015BF /* NSData+TPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E74E44C193DBA4B007015BF /* UIColor+TPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74E449193DBA4B007015BF /* UIColor+TPCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,8 +132,6 @@
 		204EF59019387932005B4636 /* VSBrandMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBrandMenu.m; sourceTree = "<group>"; };
 		204EF5921938856F005B4636 /* VSSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSegmentControl.h; sourceTree = "<group>"; };
 		204EF5931938856F005B4636 /* VSSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSegmentControl.m; sourceTree = "<group>"; };
-		204EF595193885F3005B4636 /* UIColor+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TPCategory.h"; sourceTree = "<group>"; };
-		204EF596193885F3005B4636 /* UIColor+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TPCategory.m"; sourceTree = "<group>"; };
 		207F8D821937275D00FF8BCF /* VSBrandDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBrandDAO.h; sourceTree = "<group>"; };
 		207F8D831937275D00FF8BCF /* VSBrandDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBrandDAO.m; sourceTree = "<group>"; };
 		20A829131936E271007CF0F7 /* Viplux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viplux.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,12 +157,35 @@
 		20A8295A1936E794007CF0F7 /* VSBrandDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBrandDTO.m; sourceTree = "<group>"; };
 		20A8295F19371DAE007CF0F7 /* VSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBaseViewController.h; sourceTree = "<group>"; };
 		20A8296019371DAE007CF0F7 /* VSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBaseViewController.m; sourceTree = "<group>"; };
-		20B6343A193D622A0019C6D0 /* NSString+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCategory.h"; sourceTree = "<group>"; };
-		20B6343B193D622A0019C6D0 /* NSString+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCategory.m"; sourceTree = "<group>"; };
-		20B6343D193D62D90019C6D0 /* NSData+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TPCategory.h"; sourceTree = "<group>"; };
-		20B6343E193D62D90019C6D0 /* NSData+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TPCategory.m"; sourceTree = "<group>"; };
 		20B63443193D75CF0019C6D0 /* VSShoppingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSShoppingCell.h; sourceTree = "<group>"; };
 		20B63444193D75CF0019C6D0 /* VSShoppingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSShoppingCell.m; sourceTree = "<group>"; };
+		4E74E413193DB7E4007015BF /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		4E74E414193DB7E4007015BF /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		4E74E41A193DB82F007015BF /* RequestSuperEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSuperEntity.h; sourceTree = "<group>"; };
+		4E74E41B193DB82F007015BF /* RequestSuperEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSuperEntity.m; sourceTree = "<group>"; };
+		4E74E425193DB883007015BF /* VSSystemHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSystemHelper.h; sourceTree = "<group>"; };
+		4E74E426193DB883007015BF /* VSSystemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSystemHelper.m; sourceTree = "<group>"; };
+		4E74E429193DB8C6007015BF /* Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reflection.h; sourceTree = "<group>"; };
+		4E74E42A193DB8C6007015BF /* Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reflection.m; sourceTree = "<group>"; };
+		4E74E42E193DB94C007015BF /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		4E74E42F193DB94C007015BF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4E74E430193DB94C007015BF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4E74E431193DB94C007015BF /* NSArray+ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ToString.h"; sourceTree = "<group>"; };
+		4E74E432193DB94C007015BF /* NSArray+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ToString.m"; sourceTree = "<group>"; };
+		4E74E435193DB94C007015BF /* NSDictionary+objectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+objectForKey.h"; sourceTree = "<group>"; };
+		4E74E436193DB94C007015BF /* NSDictionary+objectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+objectForKey.m"; sourceTree = "<group>"; };
+		4E74E437193DB94C007015BF /* NSNull+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Addtion.h"; sourceTree = "<group>"; };
+		4E74E438193DB94C007015BF /* NSNull+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Addtion.m"; sourceTree = "<group>"; };
+		4E74E439193DB94C007015BF /* NSObject+Addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addtions.h"; sourceTree = "<group>"; };
+		4E74E43A193DB94C007015BF /* NSObject+Addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addtions.m"; sourceTree = "<group>"; };
+		4E74E43B193DB94C007015BF /* NSString_Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_Extras.h; sourceTree = "<group>"; };
+		4E74E43C193DB94C007015BF /* NSString_Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Extras.m; sourceTree = "<group>"; };
+		4E74E444193DBA4B007015BF /* NSString+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCategory.m"; sourceTree = "<group>"; };
+		4E74E445193DBA4B007015BF /* NSString+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCategory.h"; sourceTree = "<group>"; };
+		4E74E446193DBA4B007015BF /* NSData+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TPCategory.h"; sourceTree = "<group>"; };
+		4E74E447193DBA4B007015BF /* NSData+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TPCategory.m"; sourceTree = "<group>"; };
+		4E74E448193DBA4B007015BF /* UIColor+TPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TPCategory.h"; sourceTree = "<group>"; };
+		4E74E449193DBA4B007015BF /* UIColor+TPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TPCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +267,8 @@
 		204EF5791938112F005B4636 /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				4E74E413193DB7E4007015BF /* RequestManager.h */,
+				4E74E414193DB7E4007015BF /* RequestManager.m */,
 				204EF57A19381163005B4636 /* VSBrandManage.h */,
 				204EF57B19381163005B4636 /* VSBrandManage.m */,
 			);
@@ -365,6 +398,7 @@
 		20A8294C1936E5B4007CF0F7 /* dto */ = {
 			isa = PBXGroup;
 			children = (
+				4E74E416193DB82F007015BF /* HttpEntity */,
 				20A829591936E794007CF0F7 /* VSBrandDTO.h */,
 				20A8295A1936E794007CF0F7 /* VSBrandDTO.m */,
 			);
@@ -419,12 +453,10 @@
 		20A829511936E5B4007CF0F7 /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				20B6343A193D622A0019C6D0 /* NSString+TPCategory.h */,
-				20B6343B193D622A0019C6D0 /* NSString+TPCategory.m */,
-				20B6343D193D62D90019C6D0 /* NSData+TPCategory.h */,
-				20B6343E193D62D90019C6D0 /* NSData+TPCategory.m */,
-				204EF595193885F3005B4636 /* UIColor+TPCategory.h */,
-				204EF596193885F3005B4636 /* UIColor+TPCategory.m */,
+				4E74E42C193DB94C007015BF /* category */,
+				4E74E428193DB8C6007015BF /* Reflection */,
+				4E74E425193DB883007015BF /* VSSystemHelper.h */,
+				4E74E426193DB883007015BF /* VSSystemHelper.m */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -435,6 +467,74 @@
 			);
 			name = threepart;
 			path = Viplux/threepart;
+			sourceTree = "<group>";
+		};
+		4E74E416193DB82F007015BF /* HttpEntity */ = {
+			isa = PBXGroup;
+			children = (
+				4E74E417193DB82F007015BF /* RequestEntity */,
+				4E74E41C193DB82F007015BF /* ResponseEntity */,
+			);
+			path = HttpEntity;
+			sourceTree = "<group>";
+		};
+		4E74E417193DB82F007015BF /* RequestEntity */ = {
+			isa = PBXGroup;
+			children = (
+				4E74E41A193DB82F007015BF /* RequestSuperEntity.h */,
+				4E74E41B193DB82F007015BF /* RequestSuperEntity.m */,
+			);
+			path = RequestEntity;
+			sourceTree = "<group>";
+		};
+		4E74E41C193DB82F007015BF /* ResponseEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseEntity;
+			sourceTree = "<group>";
+		};
+		4E74E428193DB8C6007015BF /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				4E74E429193DB8C6007015BF /* Reflection.h */,
+				4E74E42A193DB8C6007015BF /* Reflection.m */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
+		4E74E42C193DB94C007015BF /* category */ = {
+			isa = PBXGroup;
+			children = (
+				4E74E42D193DB94C007015BF /* DataAddition */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		4E74E42D193DB94C007015BF /* DataAddition */ = {
+			isa = PBXGroup;
+			children = (
+				4E74E444193DBA4B007015BF /* NSString+TPCategory.m */,
+				4E74E445193DBA4B007015BF /* NSString+TPCategory.h */,
+				4E74E446193DBA4B007015BF /* NSData+TPCategory.h */,
+				4E74E447193DBA4B007015BF /* NSData+TPCategory.m */,
+				4E74E448193DBA4B007015BF /* UIColor+TPCategory.h */,
+				4E74E449193DBA4B007015BF /* UIColor+TPCategory.m */,
+				4E74E42E193DB94C007015BF /* GTMBase64.h */,
+				4E74E42F193DB94C007015BF /* GTMBase64.m */,
+				4E74E430193DB94C007015BF /* GTMDefines.h */,
+				4E74E431193DB94C007015BF /* NSArray+ToString.h */,
+				4E74E432193DB94C007015BF /* NSArray+ToString.m */,
+				4E74E435193DB94C007015BF /* NSDictionary+objectForKey.h */,
+				4E74E436193DB94C007015BF /* NSDictionary+objectForKey.m */,
+				4E74E437193DB94C007015BF /* NSNull+Addtion.h */,
+				4E74E438193DB94C007015BF /* NSNull+Addtion.m */,
+				4E74E439193DB94C007015BF /* NSObject+Addtions.h */,
+				4E74E43A193DB94C007015BF /* NSObject+Addtions.m */,
+				4E74E43B193DB94C007015BF /* NSString_Extras.h */,
+				4E74E43C193DB94C007015BF /* NSString_Extras.m */,
+			);
+			path = DataAddition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,23 +636,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				204EF55619381018005B4636 /* AFSecurityPolicy.m in Sources */,
+				4E74E440193DB94C007015BF /* NSDictionary+objectForKey.m in Sources */,
 				20A8292D1936E271007CF0F7 /* VSViewController.m in Sources */,
+				4E74E422193DB82F007015BF /* RequestSuperEntity.m in Sources */,
+				4E74E43E193DB94C007015BF /* NSArray+ToString.m in Sources */,
 				204EF5941938856F005B4636 /* VSSegmentControl.m in Sources */,
+				4E74E415193DB7E4007015BF /* RequestManager.m in Sources */,
 				204EF55519381018005B4636 /* AFNetworkReachabilityManager.m in Sources */,
 				204EF56D19381021005B4636 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				204EF57119381021005B4636 /* UIImageView+AFNetworking.m in Sources */,
+				4E74E44B193DBA4B007015BF /* NSData+TPCategory.m in Sources */,
 				204EF55719381018005B4636 /* AFURLConnectionOperation.m in Sources */,
 				204EF58B193832C5005B4636 /* VSBrandToolBar.m in Sources */,
 				204EF56E19381021005B4636 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				204EF57419381021005B4636 /* UIWebView+AFNetworking.m in Sources */,
 				204EF55219381018005B4636 /* AFHTTPRequestOperation.m in Sources */,
 				204EF55419381018005B4636 /* AFHTTPSessionManager.m in Sources */,
-				20B6343F193D62D90019C6D0 /* NSData+TPCategory.m in Sources */,
 				204EF56F19381021005B4636 /* UIAlertView+AFNetworking.m in Sources */,
 				204EF55819381018005B4636 /* AFURLRequestSerialization.m in Sources */,
 				20A8295B1936E794007CF0F7 /* VSBrandDTO.m in Sources */,
 				204EF55A19381018005B4636 /* AFURLSessionManager.m in Sources */,
+				4E74E443193DB94C007015BF /* NSString_Extras.m in Sources */,
 				20A829231936E271007CF0F7 /* main.m in Sources */,
+				4E74E44C193DBA4B007015BF /* UIColor+TPCategory.m in Sources */,
+				4E74E442193DB94C007015BF /* NSObject+Addtions.m in Sources */,
 				20B63445193D75CF0019C6D0 /* VSShoppingCell.m in Sources */,
 				204EF57C19381163005B4636 /* VSBrandManage.m in Sources */,
 				204EF55319381018005B4636 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -560,14 +667,17 @@
 				204EF5881938173B005B4636 /* VSSlidingViewController.m in Sources */,
 				207F8D841937275D00FF8BCF /* VSBrandDAO.m in Sources */,
 				204EF5871938173B005B4636 /* VSBrandViewController.m in Sources */,
+				4E74E43D193DB94C007015BF /* GTMBase64.m in Sources */,
 				204EF57019381021005B4636 /* UIButton+AFNetworking.m in Sources */,
 				204EF55919381018005B4636 /* AFURLResponseSerialization.m in Sources */,
-				204EF597193885F3005B4636 /* UIColor+TPCategory.m in Sources */,
+				4E74E441193DB94C007015BF /* NSNull+Addtion.m in Sources */,
 				204EF58E19385175005B4636 /* VSShoppingCenterViewController.m in Sources */,
 				204EF5861938173B005B4636 /* VSBrandListViewController.m in Sources */,
+				4E74E44A193DBA4B007015BF /* NSString+TPCategory.m in Sources */,
 				20A8296119371DAE007CF0F7 /* VSBaseViewController.m in Sources */,
 				204EF59119387932005B4636 /* VSBrandMenu.m in Sources */,
-				20B6343C193D622A0019C6D0 /* NSString+TPCategory.m in Sources */,
+				4E74E427193DB883007015BF /* VSSystemHelper.m in Sources */,
+				4E74E42B193DB8C6007015BF /* Reflection.m in Sources */,
 				204EF57319381021005B4636 /* UIRefreshControl+AFNetworking.m in Sources */,
 				20A829271936E271007CF0F7 /* VSAppDelegate.m in Sources */,
 			);
